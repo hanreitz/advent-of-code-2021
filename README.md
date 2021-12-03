@@ -17,7 +17,6 @@ I found the inputs challenging for Advent of Code. Thankfully, someone already c
   ```
   const readFile = require('fs').readFileSync
   const file = readFile('./day01.input', 'utf-8').split('\n')
-  
 * That's it! Now you can easily use your new text array
 
 ***
