@@ -14,7 +14,8 @@ I found the inputs challenging for Advent of Code. Thankfully, someone already c
 * Step 2: make a file with a name like 'day01.input' in your filetree.
 * Step 3: read the file and parse it into a text array using the following two lines of code: 
 
-  ```const readFile = require('fs').readFileSync
+  ```
+  const readFile = require('fs').readFileSync
   const file = readFile('./day01.input', 'utf-8').split('\n')```
   
 * That's it! Now you can easily use your new text array
